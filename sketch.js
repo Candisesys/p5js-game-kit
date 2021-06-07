@@ -1,6 +1,10 @@
 var mgr
 var scene
+function preload() {
+    // Put sounds here.
+}
 function setup() {
+    // Put images here.
     createCanvas(600, 500);
     mgr = new SceneManager()
     scene = [scene1]
