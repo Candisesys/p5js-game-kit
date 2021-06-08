@@ -79,3 +79,7 @@ function sceneName() {
 The mousepressed and keydown functions are for when any of the mouse buttons are pressed or if the key is down.
 
 # IMPORTANT: IF YOU WANT TO ADD SOUND AND THE CODE ISNT WORKING, RUN IT THROUGH A LIVE SERVER!!! IT WILL RUN THAT WAY!!!
+
+## Credits
+[bmoren for the collision library.](https://github.com/bmoren)
+[mveteanu for the scene manager.](https://github.com/mveteanu/)
