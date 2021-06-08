@@ -7,6 +7,7 @@ function setup() {
     // Put images here.
     createCanvas(600, 500);
     mgr = new SceneManager()
+    // Add another scene to the "scene" variable in order for it to be a valid scene.
     scene = [scene1]
     for (var s in scene) {
       mgr.addScene(scene[s])
