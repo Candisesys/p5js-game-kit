@@ -77,6 +77,20 @@ function sceneName() {
 }
 ```
 The mousepressed and keydown functions are for when any of the mouse buttons are pressed or if the key is down.
+### How to switch scenes.
+Ok, this is cool and all, but what's the point of different scenes if you can't switch them?
+
+Well, there are two ways for a scene to switch to another scene.
+#### Going to the next scene
+I really have nothing to say about this, so here is how to do it.
+```js
+this.sceneManager.showNextScene();
+```
+#### Going to a specific scene.
+The scene that is switching to has to be in the scene array.
+```js
+this.sceneManager.showScene(sceneName);
+```
 
 # IMPORTANT: IF YOU WANT TO ADD SOUND AND THE CODE ISNT WORKING, RUN IT THROUGH A LIVE SERVER!!! IT WILL RUN THAT WAY!!!
 
